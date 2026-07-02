@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Portafolio de Jorge Jr</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <meta name="description" content="portafolio de Jorge Jr,con proyectos destacados">
+        <meta name="theme-color" content="#B727F5">
+        <link rel="icon" type="image/png" href="/img/jr/favicon-256x256.png">
+    </head>
+    <body>
+        <header>
+           <section class="perfil-card">
+              <div>
+                 <img src="/img/banner.jpg" alt="banner de perfil" class="banner">
+              </div>
+              <div class="encabezado">
+                 <div class="foto-container">
+                     <img src="/img/yo.png" alt="foto de perfil" class="perfil">
+                 </div>
+                 <h1>Jorge Servin Lazaro Jr.</h1>
+              </div>
+           </section>
+            <nav>
+                <a class="link" href="#sobre mi">Sobre Mi</a>
+                <a class="link" href="#proyectos destacados">Proyectos Destacados</a>
+                <a class="link" href="#formulario">Contacto</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="info">
+                <h2 id="sobre mi">Sobre Mi</h2>
+                <p>Estudiante de Ingeniería en Tecnologías de la Información,
+                con formación práctica intensiva en desarrollo full stack (<strong><em>frontend y backend</em></strong>),
+                análisis de datos, ciberseguridad e introducción a Inteligencia Artificial.
+                Construí y desplegué 4 proyectos propios con código documentado en GitHub,
+                además de certificaciones verificables en Python, ciberseguridad e IA.</p>
+           </section>
+
+           <section id="proyectos">
+             <h2 id="proyectos destacados">Proyectos Destacados</h2>
+             <h3>Sistema de inventario y ventas</h3>
+              <ul>
+                  <li>
+                     Diseñé e implementé una aplicación full-stack con autenticación segura 
+                     (hash de contraseñas, JWT), validación de datos y manejo de errores,
+                     resolviendo el control manual de inventario y ventas de un negocio real.
+                  </li>
+                  <li>
+                     Desplegado en Render (backend) y Vercel (frontend). Demo: [enlace]
+                        ·Repositorio: [enlace]
+                  </li>
+              </ul>
+              <h3>Dashboard de análisis de datos con predicción</h3>
+              <ul>
+                 <li>
+                     Construí un dashboard interactivo que analiza 
+                     [tema elegido: ventas / clima / finanzas] a partir de datos reales,
+                     con 4 visualizaciones y un modelo simple de Machine Learning para predecir [variable],
+                     documentando su precisión y limitaciones.
+                 </li>
+              </ul>
+              <h3>Portafolio personal</h3>
+                <ul>
+                    <li>
+                      Desarrollé y desplegué un sitio responsive para mostrar mis proyectos,
+                      con formulario de contacto validado en JavaScript.
+                      Demo: [enlace]   
+                      Repositorio: [enlace]  
+                    </li>
+                </ul>
+           </section>
+           <section id="datos">
+             <h2 id="formulario">Formulario de Contacto</h2>
+                <form method="post" action="/">
+                 <fieldset>
+                     <legend>Informacion personal</legend>
+                       <div>
+                         <label for="name">Nombre:</label>
+                         <input type="text" id="name" name="name" placeholder="Jorge Jr" required>
+                       </div>
+                       <div>
+                          <label for="correo">Correo:</label>
+                          <input type="email" id="correo" name="correo" placeholder="jorgejr1125@gmail.com" required>
+                       </div>
+                       <div>
+                          <label for="tel">Tel:</label>
+                          <input type="tel" id="tel" name="tel" placeholder="+52 4131283445" required>
+                       </div>
+                 </fieldset>
+                 <button id="contacto">contactame</button>
+                </form>
+
+            </section>
+
+        </main>
+        <footer>
+            copyright ° 2026 - Portafolio de jorge jr
+        </footer>
+    </body>
+</html>
