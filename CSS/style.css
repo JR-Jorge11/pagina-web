@@ -128,7 +128,6 @@ header h1 {
     color: white;
 }
 .certificaciones{
-    overflow-x: hidden;
     background-color: rgba(20, 20, 24, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 12px;
@@ -140,7 +139,7 @@ header h1 {
     color: white;
 }
 body {
-    
+    overflow-x: hidden;
     background-image: url('../img/fondo.gif');
     background-size: cover;
     background-position: center;
