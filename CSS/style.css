@@ -127,7 +127,7 @@ header h1 {
     box-sizing: border-box;
     color: white;
 }
-.certificaciones{
+section.certificaciones{
     background-color: rgba(20, 20, 24, 0.1);
     backdrop-filter: blur(10px);
     border-radius: 12px;
